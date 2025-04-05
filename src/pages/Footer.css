@@ -1,0 +1,55 @@
+.footer {
+    background-color: #DCCFED;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.leftFooter {
+    float: left;
+    font-size: 3em;
+    padding: inherit;
+    color: #331C52;
+}
+
+.getInfo {
+    float: right;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.getInfo #userName,
+#userEmail,
+#userMsg,
+#sumBtn {
+    padding: 8px 10px;
+    margin: 9px;
+    width: 20em;
+    font-size: medium;
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: 0px 0px 1px 1px gray;
+}
+
+#sumBtn {
+    background: #291C3A;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#userMsg {
+    padding-bottom: 100px;
+}
+
+.credit {
+    background: #291C3A;
+    color: #ffffff;
+    height: 5em;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.credit h2 {
+    padding: 10px;
+}
