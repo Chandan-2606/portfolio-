@@ -1,5 +1,11 @@
 import './Main.css'
 
+import jsIcon from "../assets/js1.png"
+import htmlIcon from "../assets/html.png"
+import cssIcon from "../assets/css.png"
+import atomIcon from "../assets/atom.png"
+import nodeIcon from "../assets/node-js-240.png"
+
 function Main() {
     return (
         <>
@@ -18,19 +24,19 @@ function Main() {
                     <div className="skillsIcon">
                         <div className="row">
                             <div className="skillsIconBox">
-                                <img src="../../public/assets/js1.png" alt="" />
+                                <img src={jsIcon} alt="" />
                             </div>
                             <div className="skillsIconBox">
-                                <img src="../../public/assets/html.png" alt="" />
+                                <img src={htmlIcon} alt="" />
                             </div>
                             <div className="skillsIconBox">
-                                <img src="../../public/assets/css.png" alt="" />
+                                <img src={cssIcon} alt="" />
                             </div>
                             <div className="skillsIconBox">
-                                <img src="../../public/assets/atom.png" alt="" />
+                                <img src={atomIcon} alt="" />
                             </div>
                             <div className="skillsIconBox">
-                                <img src="../../public/assets/node-js-240.png" alt="" />
+                                <img src={nodeIcon} alt="" />
                             </div>
                         </div>
 

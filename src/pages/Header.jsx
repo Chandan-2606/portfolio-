@@ -1,5 +1,11 @@
 import './Header.css'
 
+import jsIcon from "../assets/js1.png"
+import htmlIcon from "../assets/html.png"
+import cssIcon from "../assets/css.png"
+import atomIcon from "../assets/atom.png"
+import nodeIcon from "../assets/node-js-240.png"
+
 function Header() {
     return (
         <>
@@ -16,11 +22,11 @@ function Header() {
                     <ul>
                         {/* <li><span>0</span><span> years of<br />experence</span></li>
                     <li><span>2</span><span> project completed<br />around the world</span></li> */}
-                        <li><img src="../../public/assets/html.png" alt="" srcset="" className='webToolIcon' /></li>
-                        <li><img src="../../public/assets/css.png" alt="" srcset="" className='webToolIcon' /></li>
-                        <li><img src="../../public/assets/js1.png" alt="" srcset="" className='webToolIcon' /></li>
-                        <li><img src="../../public/assets/atom.png" alt="" srcset="" className='webToolIcon' /></li>
-                        <li><img src="../../public/assets/node-js-240.png" alt="" srcset="" className='webToolIcon' /></li>
+                        <li><img src={htmlIcon} alt="" srcset="" className='webToolIcon' /></li>
+                        <li><img src={cssIcon} alt="" srcset="" className='webToolIcon' /></li>
+                        <li><img src={jsIcon} alt="" srcset="" className='webToolIcon' /></li>
+                        <li><img src={atomIcon} alt="" srcset="" className='webToolIcon' /></li>
+                        <li><img src={nodeIcon} alt="" srcset="" className='webToolIcon' /></li>
 
                     </ul>
 

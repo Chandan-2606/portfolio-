@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom"
-
+import boyIcon from "../assets/boy.png"
 
 import './Nav.css'
 
@@ -10,7 +10,7 @@ function Nav() {
             <nav className='navbar'>
                 <div className="menu">
 
-                    <img src="../../public/assets/boy.png" alt="" srcset="" />
+                    <img src={boyIcon} alt="" srcset="" />
 
                     {/* <ul className="menuList">
                         <li>
