@@ -49,7 +49,7 @@ function Main() {
 
                         <div className="projectBox">
                             <div className="projectImage">
-                                <img src="./src/assets/js1.png" alt="sd" />
+                                <img src={htmlIcon} alt="sd" />
                             </div>
 
                             <h3>Title</h3>
@@ -58,7 +58,7 @@ function Main() {
                         </div>
                         <div className="projectBox">
                             <div className="projectImage">
-                                <img src="./src/assets/js1.png" alt="sd" />
+                                <img src={htmlIcon} alt="sd" />
                             </div>
 
                             <h3>Title</h3>
@@ -67,7 +67,7 @@ function Main() {
                         </div>
                         <div className="projectBox">
                             <div className="projectImage">
-                                <img src="./src/assets/js1.png" alt="sd" />
+                                <img src={htmlIcon} alt="sd" />
                             </div>
 
                             <h3>Title</h3>
